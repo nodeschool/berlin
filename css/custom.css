@@ -1,24 +1,24 @@
 /* overrides */ 
 
 .features-circle { 
-  background-color: #7285AC;
-  border: 6px solid #49556E;
+  background-color: #ff5640;
+  border: 6px solid #a61300;
 }
 
 .logo span {
-  color: #7285AC;
+  color: #ff1e00;
   margin: 0 -12px 0 -14px;
 }
 
 .site-header { 
-  border-top: 5px solid #7285AC;
+  border-top: 5px solid #ac1300;
   background-color: #F7F7F7;
   text-shadow: none;
   color: black;
 }
 
 .section-signup {
-  background-color: #7285AC;
+  background-color: #ac1300;
 }
 
 .site-header .logo { color: black; }
@@ -73,12 +73,16 @@ header .row { z-index: 2; position: relative; }
 }
 
 .btn-docs {
-  background: #2b3848;
-  border-color: #2b3848;
+  background: #a61300;
+  border-color: #a61300;
 }
 
 .footer-info a {
   color: white;
+}
+
+.site-footer {
+  background-color: #003643;
 }
 
 @media screen and (max-width: 468px) {
@@ -86,7 +90,7 @@ header .row { z-index: 2; position: relative; }
     font-size: 50px;
   }
   .btn-docs {
-    border-color: #7285AC;
+    border-color: #ff1e00;
   }
   .site-header {
   }
