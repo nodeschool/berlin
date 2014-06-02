@@ -1,13 +1,23 @@
 /* overrides */ 
 
 .features-circle { 
-  background-color: #ff5640;
+  background-color: #d24735;
   border: 6px solid #a61300;
 }
 
-.logo span {
-  color: #ff1e00;
+.features-item:hover .features-circle {
+  background-color: #015376;
+  border-color: #003643
+}
+
+.logo span:first-child {
+  color: #a61300;
   margin: 0 -12px 0 -14px;
+}
+
+.logo span {
+  color: #000;
+  white-space: nowrap;
 }
 
 .site-header { 
@@ -22,6 +32,15 @@
 }
 
 .site-header .logo { color: black; }
+.signup-form .btn-side {
+  text-decoration: none;
+}
+
+.signup-form .btn-side:hover {
+  border-color: #015367;
+  background-color: #fff;
+  color: #015367;
+}
 
 /* end color overrides */
 
@@ -90,7 +109,7 @@ header .row { z-index: 2; position: relative; }
     font-size: 50px;
   }
   .btn-docs {
-    border-color: #ff1e00;
+    border-color: #a61300;
   }
   .site-header {
   }
