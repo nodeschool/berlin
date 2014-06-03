@@ -100,6 +100,11 @@ header .row { z-index: 2; position: relative; }
   color: white;
 }
 
+
+.footer-info {
+  color: #b7c4d4;
+}
+
 .site-footer {
   background-color: #003643;
 }
