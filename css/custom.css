@@ -104,6 +104,10 @@ header .row { z-index: 2; position: relative; }
   background-color: #003643;
 }
 
+#whatweuse .two, #whatweuse h2 {
+  text-align: center;
+}
+
 @media screen and (max-width: 468px) {
   .logo {
     font-size: 50px;
