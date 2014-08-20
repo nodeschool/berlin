@@ -1,4 +1,4 @@
 berlin
 ======
 
-repo for organizing the berlin nodeschools
+repo for organizing the berlin nodeschools :)
