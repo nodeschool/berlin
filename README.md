@@ -1,8 +1,4 @@
-pikkupanda.github.io
+Berlin page
 ====================
 
-Pikkupanda
-
-is a tiny homepage featuring our company.
-
-Deployed at: http://www.pikkupanda.de
+Github page

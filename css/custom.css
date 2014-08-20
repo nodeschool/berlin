@@ -1,8 +1,8 @@
 /* overrides */ 
 
 .features-circle { 
-  background-color: #d24735;
-  border: 6px solid #a61300;
+  background-color: #f26b66;
+  border: 6px solid #d82727;
 }
 
 .features-item:hover .features-circle {
@@ -15,8 +15,8 @@
   margin: 0 -12px 0 -14px;
 }
 
-.logo span {
-  color: #000;
+.logo {
+  color: #fff;
   white-space: nowrap;
 }
 
@@ -28,10 +28,13 @@
 }
 
 .section-signup {
-  background-color: #ac1300;
+  background-color: #a6241f;
 }
 
-.site-header .logo { color: black; }
+.site-header .logo { 
+  color: white;
+  background-color: rgba(142, 31, 27, 0.4);
+}
 .signup-form .btn-side {
   text-decoration: none;
 }
@@ -76,8 +79,8 @@ header .row { z-index: 2; position: relative; }
 .logo { font-family: 'Droid Sans Mono';}
 
 .site-header {
-  background-position: 50% 0px;
-/*  background-image: url("../img/boston.jpg");*/
+  background-position: 52% -150px;
+  background-image: url("../img/berlinbg.jpg");
 }
 
 .header-intro-wrap {
