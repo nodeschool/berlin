@@ -6,35 +6,36 @@
 }
 
 .features-item:hover .features-circle {
-  background-color: #015376;
-  border-color: #003643
+  background-color: #AB3375;
+  border-color: #8E1A59;
 }
 
 .logo span:first-child {
-  color: #d21800;
+  color: rgb(230, 225, 203);
   margin: 0 -12px 0 -14px;
 }
 
 .logo {
-  color: #fff;
+  color: rgb(253, 232, 230);
   white-space: nowrap;
 }
 
 .site-header { 
-  border-top: 5px solid #ac1300;
+  border-top: 5px solid #8E1A59;
   background-color: #F7F7F7;
   text-shadow: none;
   color: black;
 }
 
 .section-signup {
-  background-color: #a6241f;
+  background-color: #8E1A59;
 }
 
 .site-header .logo { 
-  color: white;
-  background-color: rgba(142, 31, 27, 0.4);
+  background-color: rgba(110, 0, 0, 0.5);
 }
+
+
 .signup-form .btn-side {
   text-decoration: none;
 }
@@ -46,24 +47,6 @@
 }
 
 /* end color overrides */
-
-.easteregg { font-size: 12px; padding: 0px 5px; }
-
-.terminal {
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-family: Monaco, mono;
-  height: 100%;
-  width: 100%;
-  padding: 5px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  white-space: pre;
-  z-index: 1;
-}
 
 .row { max-width: 850px; }
 
@@ -83,6 +66,15 @@ header .row { z-index: 2; position: relative; }
   background-image: url("../img/berlinbg.jpg");
 }
 
+#subheadline, #subheadline a {
+  color: rgb(80,0,0);
+  background-color: rgba(233, 230, 208, 1);
+}
+
+#subheadline a {
+  text-decoration: underline;
+}
+
 .header-intro-wrap {
   padding-bottom: 110px;
   padding-top: 110px;
@@ -100,16 +92,17 @@ header .row { z-index: 2; position: relative; }
 }
 
 .footer-info a {
+  text-decoration: underline;
   color: white;
 }
 
 
 .footer-info {
-  color: #b7c4d4;
+  color: white;
 }
 
 .site-footer {
-  background-color: #003643;
+  background-color: #AF2420;
 }
 
 #whatweuse .two, #whatweuse h2 {
