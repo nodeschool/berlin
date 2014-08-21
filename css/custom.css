@@ -41,9 +41,9 @@
 }
 
 .signup-form .btn-side:hover {
-  border-color: #015367;
-  background-color: #fff;
-  color: #015367;
+  border-color: rgb(236,234,213);
+  color: rgb(92,0,50);
+  background-color: rgb(236,234,213);
 }
 
 /* end color overrides */
