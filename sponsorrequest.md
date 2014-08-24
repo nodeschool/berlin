@@ -1,4 +1,4 @@
-Dear <company> team,
+Dear [company] team,
 
 I am currently organizing a Node.js beginners event on September 15.
 With 20 Node mentors, we are going to help about 80 attendees to
@@ -16,5 +16,5 @@ as well as during the event. We are also happy if some of you employees
 help out as mentors or even join as learners.
 
 Best,
-<me>
+[me]
 http://nodeschool.io/
