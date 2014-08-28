@@ -382,16 +382,16 @@ body {
 
 .wrap {
   width: 100%;
-  max-width: 29.375em;
+  max-width: 33em;
   margin: 0 auto;
   padding: 0 0.714rem; }
 
 .page_header {
   position: relative;
-  background: linear-gradient(0deg, white 2px, #e6332a 2px, #e6332a 100%); }
+  background: white; }
   .page_header .site-title {
     display: block;
-    color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
     overflow: hidden;
@@ -411,7 +411,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    fill: white; }
+    fill: black; }
 
 .page_footer {
   font-size: .842105263em;
@@ -431,7 +431,7 @@ body {
     .page_content {
       padding: 3rem 0; } }
   .page_content a {
-    color: #e6332a;
+    color: black;
     border-bottom: 1px dashed currentColor;
     text-decoration: none; }
 
@@ -443,7 +443,7 @@ body {
   margin-bottom: 1.5rem;
   list-style: none; }
   .eventlist-element:hover .eventlist-element__bullets, .eventlist-element:hover .eventlist-element__bullets:before, .eventlist-element:hover .eventlist-element__bullets:after {
-    background-color: #e6332a; }
+    background-color: black; }
   @media screen and (min-width: 21.05263em) {
     .eventlist-element {
       margin-bottom: 2rem; } }
@@ -493,13 +493,14 @@ body {
   margin-right: auto;
   padding-left: 1rem;
   border-left: 1px solid #575756;
-  max-width: 21.153846154em; }
+  /*max-width: 21.153846154em; */
+  }
 
 .eventlist-element__title {
   display: block;
   font-size: 1.4em;
   margin-bottom: .3rem;
-  color: #e6332a; }
+  color: black; }
 
 .eventlist-element__venue,
 .eventlist-element__time {
@@ -545,13 +546,14 @@ body {
         top: 0; } }
 
 html {
+  margin-top: -20px;
   box-sizing: border-box; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
 .page_footer {
-  background-color: #e6332a;
+  background-color: black;
   color: white; }
   .page_footer .heart {
     position: relative;
@@ -591,18 +593,22 @@ html {
 .intro {
   text-align: center;
   margin: 0 auto 2rem;
-  max-width: 12.2em;
-  color: #71716f; }
-  @media screen and (min-width: 25em) {
+  font-size: 1.4em;
+  margin: 0 auto 3rem;
+  /*max-width: 12.2em;*/
+  color: black; }
+  /*@media screen and (min-width: 25em) {
     .intro {
-      font-size: 1.4em;
+      
       line-height: 1.2; } }
   @media screen and (min-width: 30em) {
     .intro {
-      max-width: 15em; } }
+      /*max-width: 15em;*/
+       } }
   @media screen and (min-width: 43.75em) {
     .intro {
-      margin: 0 auto 3rem;
-      max-width: 17.777777778em; } }
+    
+      /*max-width: 17.777777778em; */
+      } }*/
 
 /*# sourceMappingURL=style.css.map */
