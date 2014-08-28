@@ -1,4 +1,0 @@
-Berlin page
-====================
-
-Github page
