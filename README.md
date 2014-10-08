@@ -3,7 +3,9 @@ berlin
 
 [![Gitter chat](https://badges.gitter.im/nodeschool/berlin.png)](https://gitter.im/nodeschool/berlin)
 
-Repository for NodeSchool Berlin. Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
+Interested in new NodeSchool Berlin events: [Have a a look here](https://github.com/nodeschool/berlin/issues/5)
+
+Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
 
 The Website is hosted on the [gh-pages branch](https://github.com/nodeschool/berlin/tree/gh-pages).
 
