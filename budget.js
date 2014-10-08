@@ -5,6 +5,6 @@ console.log('Budget:',
 
           // nodeschool #2
 +  230.00 // sponsoring DigitalOcean
--  150.00 // estimate of costs for WikiMedia venue (50 people)
+-  133.28 // Costs for the WikiMedia venue
 
 ,'Euros')
