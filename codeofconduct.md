@@ -18,7 +18,7 @@ Phone | +4915732650702
 
 NodeSchool Berlin is dedicated to providing a harassment-free conference experience for 
 everyone, regardless of gender, sexual orientation, disability, physical appearance, body size,
-race, or religion. We do not tolerate harassment of participants in any form.Conference 
+race, or religion. We do not tolerate harassment of participants in any form. Conference 
 participants violating these rules may be sanctioned or expelled from the event at the
 discretion of the organizers.
 
