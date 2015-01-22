@@ -1,4 +1,4 @@
-berlin
+berlin :bear:
 ======
 
 [![Gitter chat](https://badges.gitter.im/nodeschool/berlin.png)](https://gitter.im/nodeschool/berlin)
