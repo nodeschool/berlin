@@ -1,0 +1,22 @@
+{
+  "name": "nodeschool-berlin",
+  "version": "1.0.0",
+  "description": "NodeSchool Berlin",
+  "main": "budget.js",
+  "scripts": {
+    "test": "node budget.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodeschool/berlin"
+  },
+  "keywords": [
+    "nodeschool"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeschool/berlin/issues"
+  },
+  "homepage": "https://github.com/nodeschool/berlin"
+}

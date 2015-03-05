@@ -9,6 +9,8 @@ Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
 
 The Website is hosted on the [gh-pages branch](https://github.com/nodeschool/berlin/tree/gh-pages).
 
+[NodeSchool budget](https://travis-ci.org/nodeschool/berlin/branches)
+
 ## Other Learning Groups/Events in Berlin
 
 - [OpenTechSchool](http://www.opentechschool.org/berlin/)JavaScript/Python/Ruby workshops and regular learners meetups.
