@@ -1,3 +1,6 @@
+# Current sponsor
+- Project A
+
 # Past sponsors
 - DigitalOcean
 
