@@ -7,6 +7,8 @@ Interested in new NodeSchool Berlin events: [Have a a look here](https://github.
 
 Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
 
+[List of past events](https://github.com/nodeschool/berlin/issues?q=is%3Aissue+label%3Apast-event+is%3Aclosed)
+
 The Website is hosted on the [gh-pages branch](https://github.com/nodeschool/berlin/tree/gh-pages).
 
 [NodeSchool budget](https://travis-ci.org/nodeschool/berlin/branches)
