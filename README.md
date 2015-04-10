@@ -1,4 +1,4 @@
-berlin :bear:
+nodeschool berlin :school::bear:
 ======
 
 [![Gitter chat](https://badges.gitter.im/nodeschool/berlin.png)](https://gitter.im/nodeschool/berlin)
@@ -7,7 +7,7 @@ Interested in new NodeSchool Berlin events: [Have a a look here](https://github.
 
 Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
 
-Note: Everyone involved with NodeSchool Berlin has to follow our [Code of Conduct](https://github.com/nodeschool/berlin/blob/master/codeofconduct.md).
+Note: Everyone involved with NodeSchool Berlin has to follow our [Code of Conduct](https://github.com/nodeschool/berlin/blob/master/codeofconduct.md). You can also find contact info there in case you want to report a violation or need help in general.
 
 * [List of past events](https://github.com/nodeschool/berlin/issues?q=is%3Aissue+label%3Apast-event+is%3Aclosed)
 * The Website is hosted on the [gh-pages branch](https://github.com/nodeschool/berlin/tree/gh-pages).
