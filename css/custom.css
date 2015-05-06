@@ -1,4 +1,16 @@
 /* international day */
+
+@media print {
+  #international {
+    height: 100%;
+    display: block;
+  }
+}
+
+section {
+  padding-top: 20%;
+}
+
 #international {
   border-top: 3px solid black;
   background-image: url(http://nodeschool.io/images/international-day-bg.jpg);
@@ -7,24 +19,34 @@
   text-align: center;
   padding-bottom: 4em;
   text-shadow: 1px 1px 10px #333333;
+  height: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 #international img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 40%;
   margin-bottom: -1.5em;
 }
 #international h3 {
-  font-size: 3em;
+  font-size: 4em;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 300;
 }
 #international time {
-  font-size: 1.5em;
-  font-weight: 100;
+  font-size: 1.6em;
 }
-#international h3, time {
+#international h3 span {
+  font-weight: 700;
+}
+#international > span {
+  font-size: 1.4em;
+  font-weight: 200;
+}
+#international h3, span {
   color: white;
   font-family: Helvetica, Arial, "sans-serif"
 }
