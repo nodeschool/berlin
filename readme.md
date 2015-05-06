@@ -1,0 +1,1 @@
+Install with `npm install berlin -g`, then run `nodeschool` on the terminal.

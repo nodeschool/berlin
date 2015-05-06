@@ -1,0 +1,28 @@
+{
+  "name": "berlin",
+  "version": "1.0.0",
+  "description": "NodeSchool Berlin Module",
+  "bin": {
+    "nodeschool": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeschool/berlin.git"
+  },
+  "keywords": [
+    "nodeschool",
+    "berlin"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeschool/berlin/issues"
+  },
+  "homepage": "https://github.com/nodeschool/berlin#readme",
+  "dependencies": {
+    "open": "0.0.5"
+  }
+}
