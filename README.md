@@ -3,7 +3,7 @@ nodeschool berlin :school::bear:
 
 [![Gitter chat](https://badges.gitter.im/nodeschool/berlin.png)](https://gitter.im/nodeschool/berlin)
 
-Subscribe to the [reminder newsletter](http://nodeschool.us9.list-manage2.com/subscribe?u=a44cde6d98a586be27ab4885c&id=505911339e)to be notified about future events.
+Subscribe to the [reminder newsletter](http://nodeschool.us9.list-manage2.com/subscribe?u=a44cde6d98a586be27ab4885c&id=505911339e) to be notified about future events.
 
 Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
 
