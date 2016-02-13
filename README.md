@@ -2,8 +2,8 @@ nodeschool berlin :school::bear:
 ======
 
 [![Gitter chat](https://badges.gitter.im/nodeschool/berlin.png)](https://gitter.im/nodeschool/berlin)
-
-[Facebook Group](https://www.facebook.com/groups/1512864689028358/)
+[![Slack](https://img.shields.io/badge/slack-%20%23nodeschool-orange.svg)](https://berlinjs-slack.herokuapp.com/)
+[![Facebook](https://img.shields.io/badge/facebook-group-blue.svg)](https://www.facebook.com/groups/1512864689028358/)
 
 Subscribe to the [reminder newsletter](http://nodeschool.us9.list-manage2.com/subscribe?u=a44cde6d98a586be27ab4885c&id=505911339e) to be notified about future events.
 
