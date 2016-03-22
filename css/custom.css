@@ -1,71 +1,48 @@
-/* international day */
-#international {
-  border-top: 3px solid black;
-  background-image: url(http://nodeschool.io/images/international-day-bg.jpg);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  padding-bottom: 4em;
-  text-shadow: 1px 1px 10px #333333;
-}
-#international img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  margin-bottom: -1.5em;
-}
-#international h3 {
-  font-size: 3em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-#international time {
-  font-size: 1.5em;
-  font-weight: 100;
-}
-#international h3, time {
-  color: white;
-  font-family: Helvetica, Arial, "sans-serif"
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900);
+
+body {
+  font-family: Source Sans Pro;
 }
 
-/* overrides */ 
+/* overrides */
 
-.features-circle { 
-  background-color: #f26b66;
-  border: 6px solid #d82727;
+.features-circle {
+  background-color: #c39e47;
+  border: 6px solid black;
 }
 
 .features-item:hover .features-circle {
-  background-color: #AB3375;
-  border-color: #8E1A59;
+  background-color: #c39e47;
+  border-color: black;
 }
 
-.logo span:first-child {
-  color: rgb(230, 225, 203);
-  margin: 0 -12px 0 -14px;
-}
-
-.logo {
-  color: rgb(253, 232, 230);
+.logo, .logo span:first-child {
   white-space: nowrap;
+  font-family: Source Sans Pro;
+  text-transform : uppercase;
+  color: rgba(255,255,255, 0.8);
 }
 
-.site-header { 
-  border-top: 5px solid #8E1A59;
+.nsLogo {
+  width: 30%;
+  max-width: 200px;
+}
+
+.site-header {
+  border-top: none;
   background-color: #F7F7F7;
   text-shadow: none;
   color: black;
 }
 
 .section-signup {
-  background-color: #8E1A59;
+  background-color: #c39e47;
 }
 
-.site-header .logo { 
-  background-color: rgba(110, 0, 0, 0.5);
+.site-header .logo {
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 .signup-form .btn-side {
   text-decoration: none;
@@ -76,6 +53,29 @@
   color: rgb(92,0,50);
   background-color: rgb(236,234,213);
 }
+
+.signupLink {
+  color : rgb(236,234,213);
+  background-color : rgb(92,0,50);
+  line-height: 35px;
+  margin: 1em;
+  padding: 15px 30px;
+  position: relative;
+  opacity: .999;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.signupLink:hover, .signupLink:active {
+  color : rgb(236,234,213);
+  background-color : rgb(140, 0, 76);
+}
+
+
+
 
 /* end color overrides */
 
@@ -90,31 +90,24 @@ header .row { z-index: 2; position: relative; }
 .open-knowledge-foundation, .dat { width: 150px; float: right; }
 .dat { margin-right: 35px; position: relative; top: 20px; }
 
-.logo { font-family: 'Droid Sans Mono';}
-
 .site-header {
-  background-position: 52% -150px;
-  background-image: url("../img/berlinbg.jpg");
+  background-position: bottom center;
+  background-image: url("../img/berlin-skyline.jpg");
 }
 
-#subheadline, #subheadline a {
-  color: rgb(80,0,0);
-  background-color: rgba(233, 230, 208, 1);
-}
-
-#subheadline a {
-  text-decoration: underline;
+.subheadline {
+  font-size : 21px;
+  padding : 0.5em 0;
+  color: rgba(255,255,255, 0.8);
 }
 
 .header-intro-wrap {
-  padding-bottom: 110px;
-  padding-top: 110px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   text-align: center;
 }
-
-.header-intro-wrap p {
-  font-size: 28px;
-  background-color: #f7f7f7;
+.header-intro-wrap * {
+  color : white;
 }
 
 .btn-docs {
@@ -124,26 +117,52 @@ header .row { z-index: 2; position: relative; }
 
 .footer-info a {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 
 
 .footer-info {
-  color: white;
+  color: black;
 }
 
 .site-footer {
-  background-color: #AF2420;
+  background-color: #eeeeee;
+}
+
+.site-footer h3 {
+  color: black;
 }
 
 #whatweuse .two, #whatweuse h2 {
   text-align: center;
 }
 
-@media screen and (max-width: 468px) {
+.sponsorLogo {
+  max-width: 200px;
+  margin-top: 1em;
+}
+
+.sponsoredBy {
+  text-align : center;
+}
+
+@media screen and (max-width: 40em) {
   .logo {
-    font-size: 50px;
+    font-size: 40px;
   }
+
+  .subheadline, .header-intro-wrap p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .site-header {
+    background-position: right center;
+  }
+
   .btn-docs {
     border-color: #a61300;
   }
@@ -177,5 +196,40 @@ header .row { z-index: 2; position: relative; }
 }
 
 .open-data-node {
-	float: right;
+  float: right;
 }
+
+
+
+
+/* international day */
+#international {
+  border-top: 3px solid black;
+  background-image: url(http://nodeschool.io/images/international-day-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 4em;
+  text-shadow: 1px 1px 10px #333333;
+}
+#international img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-bottom: -1.5em;
+}
+#international h3 {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#international time {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+#international h3, time {
+  color: white;
+  font-family: Helvetica, Arial, "sans-serif"
+}
+/* end international day */
