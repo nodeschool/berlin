@@ -8,13 +8,13 @@ body {
 /* overrides */
 
 .features-circle {
-  background-color: #c39e47;
-  border: 6px solid black;
+  background-color: #983B35;
+  border: 6px solid #0C0C0C;
 }
 
 .features-item:hover .features-circle {
-  background-color: #c39e47;
-  border-color: black;
+  background-color: #983B35;
+  border-color: #0C0C0C;
 }
 
 .logo, .logo span:first-child {
@@ -31,13 +31,13 @@ body {
 
 .site-header {
   border-top: none;
-  background-color: #F7F7F7;
+  background-color: #F7Fins7F7;
   text-shadow: none;
-  color: black;
+  color: #0C0C0C;
 }
 
 .section-signup {
-  background-color: #c39e47;
+  background-color: #983B35;
 }
 
 .site-header .logo {
@@ -50,13 +50,12 @@ body {
 
 .signup-form .btn-side:hover {
   border-color: rgb(236,234,213);
-  color: rgb(92,0,50);
+  color: #D9C7C4;
   background-color: rgb(236,234,213);
 }
 
 .signupLink {
-  color : rgb(236,234,213);
-  background-color : rgb(92,0,50);
+  background-color : #D27031;
   line-height: 35px;
   margin: 1em;
   padding: 15px 30px;
@@ -71,7 +70,7 @@ body {
 
 .signupLink:hover, .signupLink:active {
   color : rgb(236,234,213);
-  background-color : rgb(140, 0, 76);
+  background-color : #983B35;
 }
 
 
@@ -119,12 +118,12 @@ header .row { z-index: 2; position: relative; }
 
 .footer-info a {
   text-decoration: underline;
-  color: black;
+  color: #0C0C0C;
 }
 
 
 .footer-info {
-  color: black;
+  color: #0C0C0C;
 }
 
 .site-footer {
@@ -132,7 +131,7 @@ header .row { z-index: 2; position: relative; }
 }
 
 .site-footer h3 {
-  color: black;
+  color: #0C0C0C;
 }
 
 #whatweuse .two, #whatweuse h2 {
@@ -206,7 +205,7 @@ header .row { z-index: 2; position: relative; }
 
 /* international day */
 #international {
-  border-top: 3px solid black;
+  border-top: 3px solid #0C0C0C;
   background-image: url(http://nodeschool.io/images/international-day-bg.jpg);
   background-position: center;
   background-size: cover;
