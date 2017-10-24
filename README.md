@@ -13,12 +13,3 @@ Note: Everyone involved with NodeSchool Berlin has to follow our [Code of Conduc
 
 * [List of past events](https://github.com/nodeschool/berlin/issues?q=is%3Aissue+label%3Apast-event+is%3Aclosed)
 * The Website is hosted on the [gh-pages branch](https://github.com/nodeschool/berlin/tree/gh-pages).
-* [NodeSchool open budget](https://travis-ci.org/nodeschool/berlin/branches)
-
-## Other Learning Groups/Events in Berlin
-
-- [OpenTechSchool](http://www.opentechschool.org/berlin/)JavaScript/Python/Ruby workshops and regular learners meetups.
-- [CoderDojo] (https://zen.coderdojo.com/dojo/522) Learning events for kids
-- [RailsGirls](http://railsgirlsberlin.de/) Mostly Ruby workshops for Women
-- [Berlin.js](http://berlinjs.org/) JavaScript talks
-- [Node.js Berlin](http://www.meetup.com/Node-js-Meetup-Berlin/)
