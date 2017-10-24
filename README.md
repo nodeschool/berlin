@@ -1,7 +1,6 @@
 nodeschool berlin :school::bear:
 ======
 
-[![Gitter chat](https://badges.gitter.im/nodeschool/berlin.png)](https://gitter.im/nodeschool/berlin)
 [![Slack](https://img.shields.io/badge/slack-%20%23nodeschool-orange.svg)](https://berlinjs-slack.herokuapp.com/)
 [![Facebook](https://img.shields.io/badge/facebook-group-blue.svg)](https://www.facebook.com/groups/1512864689028358/)
 
