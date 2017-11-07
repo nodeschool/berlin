@@ -11,4 +11,12 @@ Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
 Note: Everyone involved with NodeSchool Berlin has to follow our [Code of Conduct](https://github.com/nodeschool/berlin/blob/master/codeofconduct.md). You can also find contact info there in case you want to report a violation or need help in general.
 
 * [List of past events](https://github.com/nodeschool/berlin/issues?q=is%3Aissue+label%3Apast-event+is%3Aclosed)
-* The Website is hosted on the [gh-pages branch](https://github.com/nodeschool/berlin/tree/gh-pages).
+
+
+## Website commands
+Command                | Description                                      |
+-----------------------|--------------------------------------------------|
+`$ npm start`        | Start the development server
+`$ npm test`         | Lint, validate deps & run tests
+`$ npm run build`    | Compile all files into `dist/`
+`$ npm run inspect`  | Inspect the bundle's dependencies
