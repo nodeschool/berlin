@@ -7,7 +7,7 @@
     "inspect": "bankai inspect index.js",
     "start": "bankai start index.js",
     "test": "standard && npm run test-deps",
-    "publish": "npm run test && npm run build && git add dist && git commit -m 'Publish website' && git subtree push --prefix dist origin gh-pages",
+    "publish": "npm run test && npm run build && git add dist && git commit -m 'Publish website' && git subtree push --prefix dist origin gh-pages && sed -i '' 's/bundle/berlin\/bundle/g' dist/index.html",
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
   "dependencies": {
