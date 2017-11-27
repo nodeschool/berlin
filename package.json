@@ -7,7 +7,7 @@
     "inspect": "bankai inspect index.js",
     "start": "bankai start index.js",
     "test": "standard && npm run test-deps",
-    "publish": "npm run test && npm run build && ./prefix && git add dist && git commit -m 'Publish website' && git subtree push --prefix dist origin gh-pages",
+    "publish": "npm run build && gh-pages dist/",
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
   "dependencies": {
@@ -19,6 +19,7 @@
   "devDependencies": {
     "bankai": "^8.1.1",
     "dependency-check": "^2.9.1",
+    "gh-pages": "1.1.0",
     "standard": "^10.0.3"
   },
   "standard": {
