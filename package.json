@@ -11,13 +11,13 @@
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
   "dependencies": {
-    "choo": "^6.0.0",
-    "choo-devtools": "^1.3.1",
-    "sheetify": "^6.1.0",
-    "tachyons": "^4.7.4"
+    "choo": "6.6.0",
+    "choo-devtools": "2.2.0",
+    "sheetify": "6.2.0",
+    "tachyons": "4.9.0"
   },
   "devDependencies": {
-    "bankai": "^8.1.1",
+    "bankai": "9.0.1",
     "dependency-check": "^2.9.1",
     "gh-pages": "1.1.0",
     "standard": "^10.0.3"
