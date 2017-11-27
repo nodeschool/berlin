@@ -13,8 +13,8 @@ function view (state, emit) {
         <img class="w5" src="assets/logo.png" alt="logo" />
         <h1 class="b f1 f-headline-ns db mt0 mb0">nodeschool</h1>
         <h2 class="f2 f1-ns mt0">berlin</h2>
-        <div class="f3">Friday November 10th @ Mozilla Berlin</div>
-        <a href="https://ti.to/nodeschool-berlin/25" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Sign up here</a>
+        <div class="f3">${state.date} @ Mozilla Berlin</div>
+        <a href="https://ti.to/nodeschool-berlin/${state.number}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Sign up here</a>
       </div>
       <div class="cf mw8 center pb5">
         <div class="fl ph3 w-100 w-33-ns tc">
