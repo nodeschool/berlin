@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(function (state, emitter) {
   state = Object.assign(state, {
     number: '26',
-    date: 'December 14th, 2017'
+    date: 'December 8th, 2017'
   })
 })
 
