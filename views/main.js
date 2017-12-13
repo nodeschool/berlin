@@ -13,8 +13,7 @@ function view (state, emit) {
         <img class="w5" src="assets/logo.png" alt="logo" />
         <h1 class="b f1 f-headline-ns db mt0 mb0">nodeschool</h1>
         <h2 class="f2 f1-ns mt0">berlin</h2>
-        <div class="f3">${state.date} @ Mozilla Berlin</div>
-        <a href="https://ti.to/nodeschool-berlin/${state.number}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Sign up here</a>
+        ${nextEvent()}
       </div>
       <div class="cf mw8 center pb5">
         <div class="fl ph3 w-100 w-33-ns tc">
@@ -32,4 +31,17 @@ function view (state, emit) {
       </div>
     </body>
   `
+
+  function nextEvent () {
+    if (!state.date) {
+      return html`<div>
+        <div class="f3">We are currently choosing a date for our event #${state.number}.</div>
+        <a href="https://github.com/nodeschool/berlin/issues/${state.issueNumber}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Help deciding on GitHub</a>
+      </div>`
+    }
+    return html`<div>
+      <div class="f3">${state.date} @ Mozilla Berlin</div>
+      <a href="https://ti.to/nodeschool-berlin/${state.number}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Sign up here</a>
+    </div>`
+  }
 }

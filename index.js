@@ -1,5 +1,6 @@
 var css = require('sheetify')
 var choo = require('choo')
+var websiteConfig = require('./website.json')
 
 css('tachyons')
 
@@ -10,10 +11,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 app.use(function (state, emitter) {
-  state = Object.assign(state, {
-    number: '26',
-    date: 'December 8th, 2017'
-  })
+  state = Object.assign(state, websiteConfig)
 })
 
 app.route('/', require('./views/main'))
