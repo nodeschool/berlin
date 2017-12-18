@@ -7,7 +7,7 @@
     "inspect": "bankai inspect index.js",
     "start": "bankai start index.js",
     "test": "standard && npm run test-deps",
-    "publish": "npm run build && ./prefix && gh-pages -d dist/",
+    "deploy": "npm run build && ./prefix && gh-pages -d dist/",
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
   "dependencies": {
