@@ -39,9 +39,15 @@ function view (state, emit) {
         <a href="https://github.com/nodeschool/berlin/issues/${state.issueNumber}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Help deciding on GitHub</a>
       </div>`
     }
-    return html`<div>
+    if (state.ticketsAvailable) {
+      return html`<div>
       <div class="f3">${state.date} @ Mozilla Berlin</div>
       <a href="https://ti.to/nodeschool-berlin/${state.number}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Sign up here</a>
+      </div>`
+    }
+    return html`<div>
+    <div class="f3">${state.date} @ Mozilla Berlin</div>
+    <span class="f3 bw1 ph3 pv2 mv3 mb2 dib black">Free Tickets available soon</span>
     </div>`
   }
 }
