@@ -1,7 +1,6 @@
 {
-  "name": "newpage",
+  "name": "nodeschool-berlin",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "build": "bankai build index.js",
     "inspect": "bankai inspect index.js",
