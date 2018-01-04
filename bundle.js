@@ -152,8 +152,8 @@ function view(e,t){return e.title!==TITLE&&t(e.events.DOMTITLECHANGE,TITLE),func
 module.exports={
   "number": "27",
   "issueNumber": "51",
-  "date": "January 11th, 2017",
-  "tickets": false
+  "date": "January 11th, 2018",
+  "ticketsAvailable": true
 }
 
 },{}]},{},[1]);
