@@ -29,6 +29,14 @@ function view (state, emit) {
           We think coding is awesome and everyone should feel welcome at our event. This includes that we are expecting all participants to be awesome to each other and respect the <a href="https://github.com/nodeschool/berlin/blob/master/codeofconduct.md">Code of Conduct</a>.
         </div>
       </div>
+      <div class="tc pv4 center mw5">
+        <h1 class="f2">Mentors</h1>
+        ${state.mentors.map(mentor => {
+          return html`
+            <a class="f3 fw6 db black link hover-blue mb2 mw10" href="https://github.com/${mentor}">@${mentor}</a>
+          `
+        })}
+      </div>
     </body>
   `
 

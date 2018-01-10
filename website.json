@@ -2,5 +2,12 @@
   "number": "27",
   "issueNumber": "51",
   "date": "January 11th, 2018",
-  "ticketsAvailable": true
+  "ticketsAvailable": true,
+  "mentors": [
+    "finnp",
+    "lrlna",
+    "pup",
+    "Realtin",
+    "yoshuawuyts"
+  ]
 }
