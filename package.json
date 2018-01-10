@@ -16,10 +16,10 @@
     "tachyons": "4.9.0"
   },
   "devDependencies": {
-    "bankai": "^8.1.1",
-    "dependency-check": "^2.9.1",
+    "bankai": "8.1.1",
+    "dependency-check": "2.9.1",
     "gh-pages": "1.1.0",
-    "standard": "^10.0.3"
+    "standard": "10.0.3"
   },
   "standard": {
     "ignore": [
