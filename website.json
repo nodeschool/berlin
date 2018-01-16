@@ -1,8 +1,5 @@
 {
-  "number": "28",
-  "issueNumber": "51",
-  "date": "January 24th, 2018",
-  "ticketsAvailable": true,
+  "startDate": "2018-11-01",
   "mentors": [
     "finnp",
     "lrlna",
