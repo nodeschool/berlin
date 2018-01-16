@@ -1,1 +1,13 @@
-{"number":28,"issueNumber":52,"date":false,"ticketsAvailable":false,"mentors":["finnp","lrlna","pup","Realtin","yoshuawuyts"]}
+{
+  "number": "28",
+  "issueNumber": "51",
+  "date": "January 24th, 2018",
+  "ticketsAvailable": true,
+  "mentors": [
+    "finnp",
+    "lrlna",
+    "pup",
+    "Realtin",
+    "yoshuawuyts"
+  ]
+}
