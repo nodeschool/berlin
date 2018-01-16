@@ -1,4 +1,7 @@
 var html = require('choo/html')
+var differenceInCalendarDays = require('date-fns/difference_in_calendar_days')
+var addWeeks = require('date-fns/add_weeks')
+var dateFormat = require('date-fns/format')
 
 var TITLE = 'nodeschool berlin'
 
@@ -41,21 +44,16 @@ function view (state, emit) {
   `
 
   function nextEvent () {
-    if (!state.date) {
-      return html`<div>
-        <div class="f3">We are currently choosing a date for our event #${state.number}.</div>
-        <a href="https://github.com/nodeschool/berlin/issues/${state.issueNumber}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Help deciding on GitHub</a>
-      </div>`
-    }
-    if (state.ticketsAvailable) {
-      return html`<div>
-      <div class="f3">${state.date} @ Mozilla Berlin</div>
-      <a href="https://ti.to/nodeschool-berlin/${state.number}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">Sign up here</a>
-      </div>`
-    }
+    var startDate = new Date(state.startDate)
+    var today = new Date()
+    var days = differenceInCalendarDays(today, startDate)
+    var weeks = Math.ceil(days / 7)
+    if (weeks % 2 !== 0) weeks++
+    var nextDate = addWeeks(startDate, weeks)
+    var formattedDate = dateFormat(nextDate, 'Do MMMM YYYY')
     return html`<div>
-    <div class="f3">${state.date} @ Mozilla Berlin</div>
-    <span class="f3 bw1 ph3 pv2 mv3 mb2 dib black">Free Tickets available soon</span>
+      <div class="f3">We meet Thursdays every 2 weeks @ Mozilla Berlin</div>
+      <a href="https://www.meetup.com/opentechschool-berlin/" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">RSVP here for ${formattedDate}</a>
     </div>`
   }
 }

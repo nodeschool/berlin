@@ -12,6 +12,7 @@
   "dependencies": {
     "choo": "6.6.0",
     "choo-devtools": "2.2.0",
+    "date-fns": "^1.29.0",
     "sheetify": "6.2.0",
     "tachyons": "4.9.0"
   },
