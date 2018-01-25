@@ -53,7 +53,7 @@ function view (state, emit) {
     var formattedDate = dateFormat(nextDate, 'Do MMMM YYYY')
     return html`<div>
       <div class="f3">We meet Thursdays every 2 weeks @ Mozilla Berlin</div>
-      <a href="https://www.meetup.com/opentechschool-berlin/" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">RSVP here for ${formattedDate}</a>
+      <a href="https://www.meetup.com/opentechschool-berlin/events/ttzngpyxdblb/" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">RSVP here for ${formattedDate}</a>
     </div>`
   }
 }
