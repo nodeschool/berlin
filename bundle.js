@@ -215,7 +215,7 @@ module.exports={
   "mentors": [
     "finnp",
     "lrlna",
-    "pup",
+    "oe",
     "Realtin",
     "yoshuawuyts"
   ]
