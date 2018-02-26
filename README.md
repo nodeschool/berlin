@@ -2,18 +2,23 @@ nodeschool berlin :school::bear:
 ======
 
 [![Slack](https://img.shields.io/badge/slack-%20%23nodeschool-orange.svg)](https://berlinjs-slack.herokuapp.com/)
-[![Facebook](https://img.shields.io/badge/facebook-group-blue.svg)](https://www.facebook.com/groups/1512864689028358/)
 
-Subscribe to the [reminder newsletter](http://nodeschool.us9.list-manage2.com/subscribe?u=a44cde6d98a586be27ab4885c&id=505911339e) to be notified about future events.
+## :star: welcome!
 
-Have a question? [Open an issue](https://github.com/nodeschool/berlin/issues).
+Welcome to NodeSchool Berlin, a bi-weekly [NodeSchool] chapter dedicated to helping people learn [Node.js]! You can RSVP for one of our meetups on the [OpenTechSchool Berlin] meetup page. We usually meet up every 2 weeks at the Mozilla Berlin offices in Berlin-Kreuzberg. Drinks are on us, and sometimes we even have pizza!
 
-Note: Everyone involved with NodeSchool Berlin has to follow our [Code of Conduct](https://github.com/nodeschool/berlin/blob/master/codeofconduct.md). You can also find contact info there in case you want to report a violation or need help in general.
+This repository hosts our website (http://nodeschool.io/berlin), which is built with [Choo], as well as our presentation slides we present at the start of each meetup. If you want to contribute to our website, you only need to run the following commands:
 
-* [List of past events](https://github.com/nodeschool/berlin/issues?q=is%3Aissue+label%3Apast-event+is%3Aclosed)
+```sh
+git clone https://github.com/nodeschool/berlin nodeschool-berlin
+cd nodeschool-berlin
+npm install
+npm start
+```
 
+This will launch a development server. After making your changes, be sure to open a new pull request to this repository!
 
-## Website commands
+## Build commands
 Command                | Description                                      |
 -----------------------|--------------------------------------------------|
 `$ npm start`        | Start the development server
@@ -21,3 +26,8 @@ Command                | Description                                      |
 `$ npm run build`    | Compile all files into `dist/`
 `$ npm run inspect`  | Inspect the bundle's dependencies
 `$ npm run publish`  | Publish to gh-pages
+
+[NodeSchool]: http://nodeschool.io
+[Node.js]: https://nodejs.org
+[OpenTechSchool Berlin]: https://www.meetup.com/opentechschool-berlin
+[Choo]: http://choo.io
