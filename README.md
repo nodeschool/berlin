@@ -2,6 +2,7 @@ nodeschool berlin :school::bear:
 ======
 
 [![Slack](https://img.shields.io/badge/slack-%20%23nodeschool-orange.svg)](https://berlinjs-slack.herokuapp.com/)
+[![IRC Freenode](https://img.shields.io/badge/freenode-%23nodeschool--berlin-green.svg)](https://webchat.freenode.net/?channels=nodeschool-berlin)
 
 ## :star: welcome!
 
