@@ -210,7 +210,7 @@ function view(e,t){return e.title!==TITLE&&t(e.events.DOMTITLECHANGE,TITLE),func
 
 },{"13":13,"18":18,"19":19,"20":20,"67":67}],70:[function(require,module,exports){
 module.exports={
-  "startDate": "2018-04-25",
+  "startDate": "2018-06-06",
   "eventLink": "https://www.meetup.com/opentechschool-berlin/events/249671843/",
   "mentors": [
     "finnp",
