@@ -52,7 +52,7 @@ function view (state, emit) {
     var nextDate = addWeeks(startDate, weeks)
     var formattedDate = dateFormat(nextDate, 'Do MMMM YYYY')
     return html`<div>
-      <div class="f3">We meet Thursdays every 2 weeks @ Mozilla Berlin</div>
+      <div class="f3">We meet Wednesdays every 2 weeks @ Mozilla Berlin</div>
       <a href="${state.eventLink}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">RSVP here for ${formattedDate}</a>
     </div>`
   }
