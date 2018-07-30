@@ -5,7 +5,7 @@
     "build": "bankai build index.js",
     "inspect": "bankai inspect index.js",
     "start": "bankai start index.js",
-    "test": "standard && npm run test-deps",
+    "test": "standard",
     "deploy": "npm run build && ./prefix && gh-pages -d dist/ --repo https://$GH_TOKEN@github.com/nodeschool/berlin.git",
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
