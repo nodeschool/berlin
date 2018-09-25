@@ -13,13 +13,13 @@
     "choo": "6.6.0",
     "choo-devtools": "2.2.0",
     "date-fns": "^1.29.0",
-    "sheetify": "6.2.0",
+    "sheetify": "^7.3.3",
     "tachyons": "4.9.0"
   },
   "devDependencies": {
-    "bankai": "8.1.1",
+    "bankai": "^9.15.0",
     "dependency-check": "2.9.1",
-    "gh-pages": "1.1.0",
+    "gh-pages": "^2.0.0",
     "standard": "10.0.3"
   },
   "standard": {

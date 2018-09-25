@@ -56,10 +56,4 @@ function view (state, emit) {
       <a href="${state.eventLink}" class="f3 link dim ba bw1 ph3 pv2 mv3 mb2 dib black">RSVP here for ${formattedDate}</a>
     </div>`
   }
-
-  function summerBreak () {
-    return html`<div>
-      <div class="f3">🏖️ We are on a summer break, see you in October! 🏖️</div>
-    </div>`
-  }
 }
