@@ -33,8 +33,8 @@ function view (state, emit) {
         </div>
       </div>
       <div class="tc pv4 center mw5">
-        <h1 class="f2">Mentors</h1>
-        ${state.mentors.map(mentor => {
+        <h1 class="f2">Organizers</h1>
+        ${state.organizers.map(mentor => {
           return html`
             <a class="f3 fw6 db black link hover-blue mb2 mw10" href="https://github.com/${mentor}">@${mentor}</a>
           `

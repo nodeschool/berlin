@@ -1,11 +1,9 @@
 {
   "startDate": "2018-06-06",
   "eventLink": "https://www.meetup.com/opentechschool-berlin/events/",
-  "mentors": [
+  "organizers": [
     "finnp",
-    "lrlna",
     "oe",
-    "Realtin",
-    "yoshuawuyts"
+    "Realtin"
   ]
 }
