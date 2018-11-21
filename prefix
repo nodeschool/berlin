@@ -1,2 +1,0 @@
-#!/bin/sh
-sed -i 's/bundle/berlin\/bundle/g' dist/index.html

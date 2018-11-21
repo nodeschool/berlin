@@ -2,7 +2,7 @@
   "name": "nodeschool-berlin",
   "version": "1.0.0",
   "scripts": {
-    "build": "bankai build index.js",
+    "build": "bankai build index.js --base berlin",
     "inspect": "bankai inspect index.js",
     "start": "bankai start index.js",
     "test": "standard",
